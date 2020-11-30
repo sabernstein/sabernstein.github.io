@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="aboutme.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="portfolio.js"> </script>
+    <title>About Me Page</title>
+  </head>
+  <body>
+    <nav class = "nav-bar">
+      <ul>
+        <a href="index.html">
+          <li>Home
+            <ul class = "pulldown-menu">
+              <a href="codelikeagirl.html">
+                <li>Code Like A Girl Summer Camp</li>
+              </a>
+              <a href="zerowaste.html">
+                <li>Zero Waste Ryan Stadium Proposal</li>
+              </a>
+              <a href="clearway.html">
+                <li>Clearway Scholarship Essay Contest</li>
+              </a>
+              <a href="limes.html">
+                <li>Lime Video Game Project</li>
+              </a>
+            </ul>
+          </li>
+        </a>
+
+        <a href="experience.html">
+          <li>Experience</li>
+        </a>
+
+        <a href="resume.html">
+          <li>Resume</li>
+        </a>
+
+        <a href="aboutme.html">
+          <li>About me</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="flexbox1">
+      <div class="bio-pic-wrapper">
+        <img class="bio-pic" src="images/bio-pic.png" alt="Bio Picture">
+      </div>
+      <div class="bio-info">
+        <h1>
+          Nice to meet you!
+        </h1>
+        <p>
+          My name is Sadie Bernstein and I am a second year at Northwestern University studying Computer Science and Environmental Policy and Culture.
+        </p>
+        <p>
+          In my sophomore year of high school, I enrolled in my first computer science class figuring it would be a good idea to gain some general knowledge about the subject before ultimately pivoting to another field. I could never have predicted how quickly I would become addicted to the feeling of an error-free, complied file or a finished project. My interests narrowed in as I joined the Northwestern community and applied to join the Associated Student Government’s sustainability club. Working on energy efficiency and waste management proposals have provided me an insight into where I want to direct my interests: the intersection of technology and sustainability.
+        </p>
+        <p>
+          I work very well in a team setting where I can push and pull ideas from others, however I am also a natural born leader. I strive to push myself out of my comfort zone on a consistent basis.
+        </p>
+        <p>
+          I am currently looking for full-time employment for Summer 2021. You can connect with me below!
+          <p>
+
+            <div class="Flexbox-connect">
+              <div>
+                <a href="https://www.linkedin.com/in/sadie-bernstein-58040b1b2">
+                  <button><i class="fa fa-linkedin-square" id="linkedIn"></i></button>
+                </a>
+              </div>
+
+              <div>
+                <a href="https://www.facebook.com/sadie.bernstein.7/">
+                  <button><i class="material-icons" id="facebook">facebook</i></button>
+                </a>
+              </div>
+
+              <div>
+                <a href="mailto:sadiebernstein01@gmail.com">
+                  <button><i class="material-icons" id="email">email</i></button>
+                </a>
+              </div>
+            </div>
+
+            <h2 class="classes"> Check out my noteable classes:</h2>
+
+            <div class="flexbox2">
+              <div class="year1">
+                <h3>
+                  Freshman Year
+                  <button onClick="switchDown(1)"> <i class="material-icons" id="right1">keyboard_arrow_right</i></button>
+                </h3>
+                <ul id = "pulldown-menu-fresh" >
+                </ul>
+              </div>
+              <div class="year2">
+                <h3>
+                  Sophomore Year
+                  <button onClick="switchDown(2)"> <i class="material-icons" id="right2">keyboard_arrow_right</i></button>
+                </h3>
+                <ul id="pulldown-menu-soph">
+                </ul>
+              </div>
+            </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
