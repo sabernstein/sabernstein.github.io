@@ -51,6 +51,7 @@ button {
   border: none;
   color: #5385ac;
   background-color: transparent;
+  cursor: pointer;
 }
 
 #linkedIn{
@@ -75,6 +76,10 @@ button {
   border-color: transparent;
   background-color: transparent;
   border-radius: 10px;
+}
+
+#linkedIn:hover, #facebook:hover, #email:hover {
+    cursor: pointer;
 }
 
 .flexbox2{
@@ -104,6 +109,10 @@ h3 {
 .rightArrow {
   border-radius: 4px;
 }
+
+.rightArrow:hover {
+}
+
 nav.nav-bar {
   background-color: #e0e9f0;
   top: 663px;
