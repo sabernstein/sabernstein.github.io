@@ -1,7 +1,3 @@
-//const text = document.querySelector(".SADIE");
-//const string = text.textContent;
-//const splitText = string.split("");
-//text.textContent = "";
 var current0 = "right0";
 var current1 = "right1";
 var current2 = "right2";
@@ -30,7 +26,7 @@ function switchDown(i) {
     if(current1 == "right1"){
       current1 = "down1";
       document.getElementById('right1').innerHTML = '<i class="material-icons" id="down1">keyboard_arrow_down</i>';
-      document.getElementById('pulldown-menu-fresh').innerHTML = '<li>Multivariable Differential Calculus (MATH 230-1)</li><li>Fundamentals of Computer Programming I (COMP_SCI 111)</li><li>Environment and Society (ENVR_POL 212)</li><li>Principles of Entrepreneurship (ENTREP 225/IEMS 225)</li><li>The Nature of Plants (BIOL_SCI 109-0)</li><li>Linear Algebra (MATH 240-0)</li><li>Fundamentals of Computer Programming II (COMP_SCI 211)</li><li>Ocean and Coastal Law and Policy (ENVR_POL 390-0-24)</li>';
+      document.getElementById('pulldown-menu-fresh').innerHTML = '<li>Multivariable Differential Calculus </li><li>Fundamentals of Computer Programming I </li><li>Environment and Society </li><li>Principles of Entrepreneurship </li><li>The Nature of Plants </li><li>Linear Algebra </li><li>Fundamentals of Computer Programming II </li><li>Ocean and Coastal Law and Policy </li>';
     }
     else {
       current1 = "right1";
@@ -43,7 +39,7 @@ function switchDown(i) {
       current2 = "down2";
       document.getElementById('right2').innerHTML = '<i class="material-icons" id="down2">keyboard_arrow_down</i>';
       document.getElementById("pulldown-menu-soph").innerHTML =
-      "<li>Data Structures and Data Management (COMP_SCI 214)</li><li>Human Computer Interaction (COMP_SCI 330)</li>";
+      "<li>Data Structures and Data Management </li><li>Human Computer Interaction </li>";
     }
     else {
       current2 = "right2";
@@ -51,9 +47,4 @@ function switchDown(i) {
       document.getElementById("pulldown-menu-soph").innerHTML="";
     }
   }
-}
-
-function done(){
-  clearInterval(timer);
-  time = Null;
 }

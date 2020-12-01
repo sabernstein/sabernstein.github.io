@@ -5,6 +5,7 @@
 
 a {
   text-decoration: none;
+  color: #437e7c;
 }
 
 body {
@@ -37,7 +38,7 @@ h1, h2, h3 {
 @keyframes bounce {
        0%   { transform: scale(1,1)      translateY(0); }
        10%  { transform: scale(1.1,.9)   translateY(0); }
-       30%  { transform: scale(.9,1.1)   translateY(-40px); }
+       30%  { transform: scale(.9,1.1)   translateY(-35px); }
        50%  { transform: scale(1.05,.95) translateY(0); }
        57%  { transform: scale(1,1)      translateY(-3px); }
        64%  { transform: scale(1,1)      translateY(0); }
@@ -166,7 +167,7 @@ nav.nav-bar {
   right: 0px;
   box-shadow: 0px 4px 4px #0003;
   padding-left: 2em;
-  margin-top: 5px;
+  margin-top: 40px;
   text-align: center;
 }
 
