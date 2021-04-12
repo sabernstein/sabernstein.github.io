@@ -39,7 +39,7 @@ function switchDown(i) {
       current2 = "down2";
       document.getElementById('right2').innerHTML = '<i class="material-icons" id="down2">keyboard_arrow_down</i>';
       document.getElementById("pulldown-menu-soph").innerHTML =
-      "<li>Data Structures and Data Management </li><li>Human Computer Interaction </li>";
+      "<li>Data Structures and Data Management </li><li>Human Computer Interaction </li> </li><li>AI and Experimental Narratives</li> </li><li>Discrete Mathematics in Computer Science</li>";
     }
     else {
       current2 = "right2";
